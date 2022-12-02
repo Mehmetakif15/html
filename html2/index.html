@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ders2</title>
+    <style>
+      #harvey {
+        background-color: lightcoral;
+        list-style-type: georgian;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Lorem ipsum <b>dolor sit amet</b> consectetur adipisicing.</p>
+    <p>
+      Lorem ipsum
+      <strong>dolor sit amet anlamsal olarak onemli</strong> consectetur
+      adipisicing.
+    </p>
+    <p>Lorem ipsum dolor sit amet <i>consectetur</i> adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet <em>consectetur onemli</em> adipisicing.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur <small>adipisicing.</small></p>
+    <p>X<sup>2</sup></p>
+    <p>H<sub>2</sub>O<sub>4</sub></p>
+    <p>Lorem ipsum dolor sit <mark>amet consectetur adipisicing.</mark></p>
+    <p>Lorem ipsum dolor <u>sit amet consectetur</u> adipisicing.</p>
+    <p>
+      <mark><del>900$</del></mark> 300$
+    </p>
+
+    <h1>Listeler</h1>
+    <h3>Sirali Listeler</h3>
+    <hr />
+    <ol start="10">
+      <li>Full Stack</li>
+      <li>Data Science</li>
+      <li>AWS DevOps</li>
+      <li>Tester</li>
+      <li>Cyber Security</li>
+      <li>Blockchain</li>
+    </ol>
+    <ol start="10" reversed>
+      <li>Full Stack</li>
+      <li>Data Science</li>
+      <li>AWS DevOps</li>
+      <li>Tester</li>
+      <li>Cyber Security</li>
+      <li>Blockchain</li>
+    </ol>
+    <ol type="I" reversed>
+      <li>Full Stack</li>
+      <li>Data Science</li>
+      <li>AWS DevOps</li>
+      <li>Tester</li>
+      <li>Cyber Security</li>
+      <li>Blockchain</li>
+    </ol>
+    <h1>Tablolar</h1>
+    <table border="10" width="50%">
+      <thead>
+        <tr>
+          <th>AD</th>
+          <th>SOYAD</th>
+          <th>YAS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ali</td>
+          <td>Yilmaz</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>Hasan</td>
+          <td rowspan="2">Kaya</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td>Osman</td>
+          <!-- <td>Kaya</td> -->
+          <td>29</td>
+        </tr>
+        <tr>
+          <td>Tolga</td>
+          <td>Ersoy</td>
+          <td>18</td>
+        </tr>
+      </tbody>
+    </table>
+    <h1>Listeler</h1>
+    <h3>Sirali Listeler</h3>
+    <hr />
+    <ol>
+      <li>Fruits</li>
+      <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+      </ul>
+
+      <li>Vegetables</li>
+      <ul type="square">
+        <li>Cabbage</li>
+        <li>Spinach</li>
+        <li>Potato</li>
+      </ul>
+    </ol>
+    <ol reversed id="harvey">
+      <li>Full Stack</li>
+      <li>Data Science</li>
+      <li>AWS DevOps</li>
+      <li>Tester</li>
+      <li>Cyber Security</li>
+      <li>Blockchain</li>
+    </ol>
+    <hr />
+    <h3>Sirasiz Listeler</h3>
+    <h6>Waffle Malzemeleri</h6>
+    <ul style="background-color: orchid">
+      <li style="background-color: chocolate">Cikolata</li>
+      <li>Muz</li>
+      <li>Kivi</li>
+      <li>Ananas</li>
+      <li style="background-color: red">Cilek</li>
+    </ul>
+    <hr />
+    <h3>Tanimlama Listeleri</h3>
+    <dl>
+      <dt>Araba</dt>
+      <dd>4 tekerlikli kara tasiti</dd>
+      <dt>Karpuz</dt>
+      <dd>Yaz meyvesi</dd>
+      <dt>Baklava</dt>
+      <dd>Serbetli tatlı</dd>
+    </dl>
+    <hr />
+    <h2>Ornek Tablo</h2>
+    <table border="2" width="100%" style="text-align: center">
+      <h3>Costumer Information Table</h3>
+      <thead style="background-color: purple">
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Jobs</th>
+          <th>Working Experience</th>
+        </tr>
+        <tr>
+          <th>a</th>
+          <th>b</th>
+          <th style="background-color: coral">c</th>
+          <th>d</th>
+        </tr>
+      </thead>
+      <tbody style="background-color: orange">
+        <tr>
+          <td>Henry</td>
+          <td colspan="2">Senior Developer</td>
+          <!-- <td>Senior Developer</td> -->
+          <td rowspan="2">5 year</td>
+        </tr>
+        <tr>
+          <td>Jason</td>
+          <td>Software Engineer</td>
+          <td>Fullstack Developer</td>
+          <!-- <td>5 year</td> -->
+        </tr>
+        <tr>
+          <td>Fred</td>
+          <td>Junior Developer</td>
+          <td>Backend Developer</td>
+          <td>2 year</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

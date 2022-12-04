@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tektik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <style>
+      table {
+        font-family: "Open Sans", sans-serif;
+      }
+      th {
+        background-color: rgb(70, 70, 70);
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: rgb(195, 193, 193);
+      }
+      tr:nth-child(odd) {
+        background-color: rgb(224, 223, 223);
+      }
+      .gup1 {
+        text-align: left;
+      }
+      .gup4 {
+        text-align: left;
+        width: 40%;
+      }
+      .gup2 {
+        text-align: center;
+      }
+      .gup3 {
+        text-align: right;
+      }
+      .gup5 {
+        text-align: center;
+        width: 10%;
+        letter-spacing: 6px;
+      }
+      .button {
+        border: none;
+        text-decoration: none;
+        color: white;
+        background-color: orangered;
+        padding: 10px;
+      }
+      .right {
+        position: absolute;
+        right: 550px;
+        letter-spacing: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <table width="60%">
+      <tr>
+        <th class="gup1">Ürün Kodu</th>
+        <th class="gup4">Ürün Adı</th>
+        <th class="gup2">Miktar</th>
+        <th class="gup3">Birim Fiyat</th>
+        <th class="gup3">Ara Toplam</th>
+        <th class="gup5"></th>
+      </tr>
+      <tr>
+        <td class="gup1">154654</td>
+        <td class="gup4">Notebook</td>
+        <td class="gup2">1</td>
+        <td class="gup3">5.400 ₺</td>
+        <td class="gup3">5400₺</td>
+        <td class="gup5">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <i class="fa-regular fa-trash-can"></i>
+        </td>
+      </tr>
+      <tr>
+        <td class="gup1">456466</td>
+        <td class="gup4">Klavye</td>
+        <td class="gup2">2</td>
+        <td class="gup3">80₺</td>
+        <td class="gup3">160₺</td>
+        <td class="gup5">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <i class="fa-regular fa-trash-can"></i>
+        </td>
+      </tr>
+      <tr>
+        <td class="gup1">564646</td>
+        <td class="gup4">Monitör</td>
+        <td class="gup2">1</td>
+        <td class="gup3">700₺</td>
+        <td class="gup3">700₺</td>
+        <td class="gup5">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <i class="fa-regular fa-trash-can"></i>
+        </td>
+      </tr>
+      <tr>
+        <td class="gup1">123598</td>
+        <td class="gup4">Mouse</td>
+        <td class="gup2">2</td>
+        <td class="gup3">50₺</td>
+        <td class="gup3">100₺</td>
+        <td class="gup5">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <i class="fa-regular fa-trash-can"></i>
+        </td>
+      </tr>
+      <tr>
+        <td class="gup1">613448</td>
+        <td class="gup4">Play Station</td>
+        <td class="gup2">1</td>
+        <td class="gup3">2.500₺</td>
+        <td class="gup3">2.500₺</td>
+        <td class="gup5">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <i class="fa-regular fa-trash-can"></i>
+        </td>
+      </tr>
+      <tr>
+        <td class="gup1">789799</td>
+        <td class="gup4">Usb Bellek</td>
+        <td class="gup2">3</td>
+        <td class="gup3">120₺</td>
+        <td class="gup3">360₺</td>
+        <td class="gup5">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <i class="fa-regular fa-trash-can"></i>
+        </td>
+      </tr>
+      <tr>
+        <th colspan="4" class="gup3">TOPLAM</th>
+        <th class="gup3">9.220₺</th>
+        <th></th>
+      </tr>
+    </table>
+    <br />
+    <div class="right">
+      <button class="button">
+        <i
+          style="color: black; padding-right: 6px"
+          class="fa-solid fa-cart-shopping"
+        ></i>
+        Alışverişe Devam
+      </button>
+      <button class="button">
+        <i
+          style="color: black; padding-right: 6px"
+          class="fa-solid fa-credit-card"
+        ></i>
+        Ödemeye Geç
+      </button>
+    </div>
+  </body>
+</html>
